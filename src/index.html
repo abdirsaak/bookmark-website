@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Bookmarka web</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <!-- ........ header section -->
+    <header
+      class="flex flex-col items-center my-4 md:flex-row md:justify-around"
+    >
+      <!-- .... logo -->
+      <div class="">
+        <img src="../images/logo-bookmark.svg" alt="" />
+      </div>
+
+      <!-- .... navbar -->
+      <div class="nav mt-2">
+        <ul class="flex flex-wrap justify-center items-center">
+          <li class="px-2 md:px-4 lg:px-4">
+            <a class="hover:text-red-400" href="#">features</a>
+          </li>
+          <li class="px-2 md:px-4 lg:px-4">
+            <a class="hover:text-red-400" href="#">pricing</a>
+          </li>
+          <li class="px-2 md:px-4 lg:px-4">
+            <a class="hover:text-red-400" href="#">contact</a>
+          </li>
+          <li class="px-2 md:px-4 lg:px-4">
+            <a class="hover:text-red-400" href="#">
+              <button
+                class="bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-transparent hover:text-gray-700 hover:border-2 border-red-600 mt-2"
+              >
+                Login
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ....... hero section -->
+
+    <section class="md:mt-20">
+      <div class="flex flex-col items-center md:flex-row md:justify-around">
+        <!-- .... img -->
+        <div class="my-4 md:hidden lg:hidden xl:hidden">
+          <img class="w-[300px]" src="../images/illustration-hero.svg" alt="" />
+        </div>
+        <!-- ... content -->
+        <div class="flex flex-col items-center text-center">
+          <h2 class="font-bold text-[25px] px-4 md:px-0">
+            A Simple Bookmark Manager
+          </h2>
+          <p class="text-gray-400 px-10 py-4 text-left md:w-[490px] md:pl-20">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <div class="btn mx-2 md:mx-0 md:ml-10 my-4">
+            <button
+              class="bg-blue-800 text-white px-4 py-4 text-[20px] rounded-md shadow-lg"
+            >
+              Get it on Chrome
+            </button>
+            <button
+              class="mt-2 bg-gray-200 px-4 py-4 text-[20px] rounded-md shadow-lg ml-2"
+            >
+              Get it on Firefox
+            </button>
+          </div>
+        </div>
+        <!-- ... img right -->
+        <div class="hidden md:block">
+          <img class="w-[300px]" src="../images/illustration-hero.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ........ featues -->
+    <section class="mb-10 mt-20 flex flex-col items-center">
+      <div class="content text-center">
+        <h1 class="font-bold text-[30px] py-4">Features</h1>
+        <p class="px-10 py-4 md:w-[450px]">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+      <!-- .........features -->
+      <div class="flex justify-center">
+        <ul class="flex flex-col items-center md:flex-row text-center">
+          <li
+            class="py-4 md:px-4 hover:border-b-[4px] hover:border-red-500 w-[200px]  my-2 border-y-[1px] border-gray-400 cursor-pointer md:border-t-0"
+          >
+            Simple Bookmarking
+          </li>
+          <li
+            class="py-4 md:px-4 hover:border-b-[4px] hover:border-red-500 w-[200px] my-2 border-b-[1px] border-gray-400 cursor-pointer"
+          >
+            Speedy Searching
+          </li>
+          <li
+            class="py-4 md:px-4 hover:border-b-[4px] hover:border-red-500 w-[200px] my-2 border-b-[1px] border-gray-400 cursor-pointer"
+          >
+            Easy Sharing
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- .....bookmark -->
+    <section class="mb-10 mt-28">
+      <div class="flex flex-col items-center md:flex-row md:justify-center">
+        <!-- ....img -->
+        <div class="flex">
+          <img
+            class="w-[250px] md:w-[300px]"
+            src="../images/illustration-features-tab-3.svg"
+            alt=""
+          />
+        </div>
+        <!-- ...content -->
+        <div class="flex flex-col text-center px-10">
+          <h1 class="font-bold text-[30px] my-4 md:text-left">
+            Bookmark in one click
+          </h1>
+          <p class="md:w-[400px] text-center">
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <button
+            class="hidden md:block lg:block xl:block bg-blue-600 text-white w-[170px] mt-6 py-2 rounded-md shadow-lg"
+          >
+            More info
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- .....download the extension -->
+    <section class="mb-10 mt-20">
+      <div class="flex flex-col text-center">
+        <div class="flex flex-col items-center">
+          <h1 class="font-bold text-[25px] py-4 md:py-6">
+            Download the extension
+          </h1>
+          <p class="px-4 md:w-[400px]">
+            We’ve got more browsers in the pipeline. Please do let us know if
+            you’ve got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+        <!-- ......cards -->
+        <div
+          class="flex flex-col items-center gap-y-6 justify-center md:flex-row md:gap-x-4 flex-wrap mt-4"
+        >
+          <!-- card 1 -->
+          <div
+            class="flex flex-col items-center text-center bg-white shadow-xl w-[250px] h-[300px] rounded-md"
+          >
+            <img
+              class="w-[100px] mt-6"
+              src="../images/logo-chrome.svg"
+              alt=""
+            />
+            <h3 class="py-2">Add to Chrome</h3>
+            <p class="py-2">Minimum version 62</p>
+            <button
+              class="bg-blue-700 text-white w-[240px] h-[40px] mt-10 rounded-md"
+            >
+              Add & Install Extension
+            </button>
+          </div>
+          <!-- card 2 -->
+          <div
+            class="flex flex-col items-center text-center bg-white shadow-xl w-[250px] h-[300px] rounded-md"
+          >
+            <img
+              class="w-[100px] mt-6"
+              src="../images/logo-firefox.svg"
+              alt=""
+            />
+            <h3 class="py-2">Add to Firefox</h3>
+            <p class="py-2">Minimum version 55</p>
+            <button
+              class="bg-blue-700 text-white w-[240px] h-[40px] mt-10 rounded-md"
+            >
+              Add & Install Extension
+            </button>
+          </div>
+          <!-- card 3 -->
+          <div
+            class="flex flex-col items-center text-center bg-white shadow-xl w-[250px] h-[300px] rounded-md"
+          >
+            <img class="w-[100px] mt-6" src="../images/logo-opera.svg" alt="" />
+            <h3 class="py-2">Add to Opera</h3>
+            <p class="py-2">Minimum version 46</p>
+            <button
+              class="bg-blue-700 text-white w-[240px] h-[40px] mt-10 rounded-md"
+            >
+              Add & Install Extension
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- .... footer -->
+<footer>
+    <section>
+      <div class="bg-blue-700 h-[300px] ">
+        <h4 class="text-white font-sans px-4 py-4 text-[25px] text-center">
+          Stay up-to-date with what we’re doing
+        </h4>
+        <div class="flex flex-col items-center md:flex-row md:gap-x-4 md:justify-center">
+          <input
+            class="w-[250px] h-[50px] outline-none my-4 rounded-md pl-4"
+            type="text"
+            placeholder="name@gmail.com"
+          />
+          <button
+            class="bg-red-500 w-[250px] h-[50px] cursor-pointer rounded-md text-white"
+          >
+            Contact us
+          </button>
+        </div>
+      </div>
+      <div
+        class="bg-blue-950 h-[200px] flex flex-col gap-y-4 items-center text-white"
+      >
+        <!-- ...logog -->
+        <div class="">
+          <img class="bg-white mt-4" src="../images/logo-bookmark.svg" alt="" />
+        </div>
+        <nav>
+          <ul class="flex flex-col md:flex-row ">
+            <li class="py-2 md:px-4"><a href="#">Features</a></li>
+            <li class="py-2 md:px-4"><a href="#">Pricing</a></li>
+            <li class="py-2 md:px-4"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </footer>
+  </body>
+</html>
